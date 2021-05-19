@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="BoterKaasEnEi2:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/BoterKaasEnEi2_jar</output-path>
+    <root id="archive" name="BoterKaasEnEi2.jar">
+      <element id="module-output" name="BoterKaasEnEi2" />
+    </root>
+  </artifact>
+</component>

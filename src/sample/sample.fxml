@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <GridPane minHeight="100.0" prefWidth="50.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" percentWidth="50.0" />
+          <ColumnConstraints hgrow="SOMETIMES" percentWidth="16.66" />
+            <ColumnConstraints hgrow="SOMETIMES" percentWidth="33.33" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <TextArea fx:id="Console" prefHeight="100.0" prefWidth="300.0" text="this is the console" />
+            <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="2">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#StartVsCpu" prefHeight="50.0" prefWidth="200.0" text="Vs cpu" />
+                  <Button mnemonicParsing="false" onAction="#StartVsPlayer" prefHeight="50.0" prefWidth="200.0" text="2 players" />
+               </children>
+            </VBox>
+         </children>
+      </GridPane>
+      <GridPane minHeight="300.0" minWidth="300.0" prefHeight="600.0" prefWidth="600.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="0.0" prefHeight="200.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="0.0" prefHeight="200.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="0.0" prefHeight="200.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+             <Button fx:id="Btn1" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#Btn1Control" GridPane.columnIndex="0" GridPane.rowIndex="0">
+               <font>
+                  <Font size="30.0" />
+               </font></Button>
+             <Button fx:id="Btn2" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#Btn2Control" GridPane.columnIndex="1" GridPane.rowIndex="0">
+               <font>
+                  <Font size="30.0" />
+               </font></Button>
+             <Button fx:id="Btn3" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#Btn3Control" GridPane.columnIndex="2" GridPane.rowIndex="0">
+               <font>
+                  <Font size="30.0" />
+               </font></Button>
+             <Button fx:id="Btn4" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#Btn4Control" GridPane.columnIndex="0" GridPane.rowIndex="1">
+               <font>
+                  <Font size="30.0" />
+               </font></Button>
+             <Button fx:id="Btn5" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#Btn5Control" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font size="30.0" />
+               </font></Button>
+             <Button fx:id="Btn6" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#Btn6Control" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <font>
+                  <Font size="30.0" />
+               </font></Button>
+             <Button fx:id="Btn7" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#Btn7Control" GridPane.columnIndex="0" GridPane.rowIndex="2">
+               <font>
+                  <Font size="30.0" />
+               </font></Button>
+             <Button fx:id="Btn8" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#Btn8Control" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <font>
+                  <Font size="30.0" />
+               </font></Button>
+             <Button fx:id="Btn9" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#Btn9Control" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <font>
+                  <Font size="30.0" />
+               </font></Button>
+
+
+         </children>
+      </GridPane>
+   </children>
+</VBox>
