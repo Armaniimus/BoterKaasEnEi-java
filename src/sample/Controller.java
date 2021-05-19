@@ -6,7 +6,6 @@ import javafx.scene.control.Button;
 import javafx.scene.control.TextArea;
 
 public class Controller {
-    private CalcStuff CalcStuff;
     private Console ConsoleObj;
     private Game Game;
 
@@ -29,10 +28,6 @@ public class Controller {
         this.ConsoleObj = new Console();
         this.Game = new Game(ConsoleObj);
 
-        // novi assignment stuff
-        this.CalcStuff = new CalcStuff();
-        this.CalcStuff.testNr(15);
-        this.CalcStuff = null;
     }
 
     // set button Controls
